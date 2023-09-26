@@ -1,0 +1,88 @@
+.App {
+  font-family: arial;
+  text-align: left;
+  color: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:  Arial;
+ 
+  line-height: 30px;
+  color: #777;
+  background: black;
+}
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+#contact {
+  background: #2e2c2c;
+  padding: 25px;
+  margin: 50px 0;
+}
+#contact h3 {
+
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+
+}
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  color: #707070;
+}
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: rgb(11, 152, 187);
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+#contact button[type="submit"]:hover {
+  background: rgb(26, 123, 156);
+  
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.RadialProgress {
+  block-size: 5vmin;
+  inline-size: 50vmin;
+  min-inline-size: 100px;
+  min-block-size: 10px;
+  display: inline;
+  place-items: left;
+  position: relative;
+  font-size: 20px;
+  font-weight: 700;
+  color: #707070;
+  
+}
+.bb {
+  display: inline-table; 
+  border-spacing:  25px 10px;
+  background-color:  #252321;
+  border-radius: 8px;
+  color: #707070;
+  font-size: 16px;
+  font-weight: 700;
+}
